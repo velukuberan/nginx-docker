@@ -60,9 +60,6 @@ A complete Docker setup for running Nginx with PHP-FPM support, including SSL ce
 └── certs/              # SSL certificates (auto-generated)
 ```
 
-## License
-
-MIT License - see LICENSE file for details.
 ## SSL Certificates Note
 
 Since `certs/` is in `.gitignore`, each person who clones the repo needs to run:
@@ -81,3 +78,6 @@ This is intentional - SSL certificates should not be shared in Git for security 
 ✅ Ready for collaborative development  
 
 The project can now be cloned, forked, and collaborated on by others!
+
+## License
+MIT License - see LICENSE file for details.
